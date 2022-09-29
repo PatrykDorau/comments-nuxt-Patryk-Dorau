@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go on board - Rekrutacja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-container">
+    <div class="nav">
+      <div class="nav-list">
+        <a class="nav-list-el" href="#">Opis projektu</a>
+        <a class="nav-list-el" href="#">Cele</a>
+        <a class="nav-list-el" href="#">Aktualności</a>
+        <a class="nav-list-el" href="#">Komentarze</a>
+      </div>
+      <a class="nav-list-btn" href="#">Wspieram projekt</a>
+    </div>
+
+    <div class="site-content">
+      <p><strong>Dodaj komentarz</strong></p>
+      <div class="add-comment">
+        <div class="logo-side">
+          <div class="comment-logo"></div>
+        </div>
+        <div class="text-side">
+          <input type="text" id="author" name="author" placeholder="Imie">
+          <span></span>
+          <input type="text" id="message" name="message" placeholder="Komentarz">
+          <div class="comment-btn">Dodaj</div>
+        </div>
+      </div>
+
+      <div class="comment-list-title">
+        <h4><strong>Komentarze wspierających</strong></h3>
+        <div class="increment">0</div>
+      </div>
+      <div class="comments-list"></div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
